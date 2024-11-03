@@ -40,3 +40,10 @@ function deleteBook(title) {
     console.log("Book not found.");
   }
 }
+
+// Example usage
+addBook("Think Big", "Ben Carson", 1992);
+addBook("To Kill a Mockingbird", "Harper Lee", 1960);
+viewBooks();
+deleteBook("Think Big");
+viewBooks();
